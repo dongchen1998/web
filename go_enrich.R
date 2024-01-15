@@ -25,7 +25,7 @@ if (!file.exists(opt$input)) {
 }
 
 # 背景文件，需要师哥你修改一下路径
-go2name <- read.delim('/Users/dongjiacheng/Desktop/coder/web/enrich_background_file/go2name.txt', stringsAsFactors=FALSE)
+go2name <- read.delim('/Users/dongjiacheng/Desktop/web/enrich_background_file/go2name.txt', stringsAsFactors=FALSE)
 go2gene_df <- read.delim(opt$go_file, stringsAsFactors=FALSE)
 
 
