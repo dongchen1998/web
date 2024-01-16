@@ -17,7 +17,7 @@ from script.heatmap import run_heatmap
 # streamlit run app.py
 
 # 设置工作目录
-workdir = '/Users/dongjiacheng/Desktop/web'
+workdir = '/Users/dongjiacheng/Desktop/web/omicpy'
 
 # 设置页面标题
 st.title("Bulk RNA-seq 分析工具")
